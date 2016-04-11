@@ -1,0 +1,20 @@
+CSS'de iç boşlukları ayarlamak için hangi özellik kullanılır?|margin|padding|color|width
+HTML'sayfasını gövdesi hangi etiketle oluşturulur?|<html>|<table>|<body>|<head>
+Tabloda hücre oluşturmak için hangi etiket kullanılır?|<td>|<table>|<th>|<tr>
+Resme link ekleyen kod parçası hangisidir?|<a href=”#”><img src=”a.gif”></img></a>|<a href=”#”><img src=”a.gif /></a>|<img src=”a.gif”><a href=”#”></img>|<img src=”a.gif” href=”#” />
+Liste öğesi oluştururken hangi etiket kullanılır?|<li>|<ul>|<ol>|<p>
+CSS'de çerçeve kenarlık eklemek için hangi özellik kullanılır?|border|size|color|width
+Aşağıdakilerden hangisi kapanışı olan HTML etiketidir?|<br>|<img>|<h1>|<input>
+HTML de 10 punto büyüklüğünde eğik ve mavi bir yazıyı ekrana basan kullanım hangisidir?|<font size=”10” color=”blue”>Yazı</font></i>|<i><font size=”10” color=”blue”>Yazı</font>|<font size=”10px” color=”blue”><i>Yazı</i>/font>|<font size=”10” color=”blue”>Yazı</font>
+Sırasız liste oluşturmak için hangi etiket kullanılır?|<ol>|<ul>|<tl>|<tr>
+Aşağıdakilerden hangisi kalın ve italik bir yazıyı ekrana yazar?|<b><u>Yazı</u></b>|<b><i>Yazı<b></i>|<i><u>Yazı</u></i>|<b><i>Yazı</i></b>
+CSS'de yazı tipini değiştirmek için hangi özellik kullanılır?|size|width|font-face|colorHTML de hangi kullanım yanlıştır?|<b><i>Yanlışım</i></b>|<u><i>Doğruyum</i></u>|<i><u>Doğruyum</u></>|<u><b>Doğruyum</b></u>
+CSS'de arkaplana resim koymak için hangi özellik kullanılır?|color|bgcolor|background-color|background-image
+<h1><span><b>Merhaba</b></span></h1> için aşağıdakilerden hangisi yanlıştır?|span, h1'in evladıdır.|b, h1'in torunudur.|b, h1'in evladıdır.|span, b'nin babasıdır 
+<h1> içindeki tüm <b> etiketlerinin yazı renginin kırmızı olması için hangi CSS seçici kullanılmalıdır?| b > h1	| b h1|h1 b|h1 + b
+HTML ne işe yarar?|Web sayfası yapmaya|Mail yollamaya|Sunu yapmaya|Hesap yapmaya
+HTML de hangi kullanım yanlıştır?|<b><i>Yanlışım</i></b>|<u><i>Doğruyum</i></u>|<i><u>Doğruyum</u></>|<u><b>Doğruyum</b></u>
+Sıralı liste oluşturmak için hangi etiket kullanılır?|<ol>|<ul>|<tl>|<tr>
+Aşağıdakilerden hangisi CSS seçicisi değildir?|-sinif|.sinif|#sinif|h1
+CSS seçicilerinin güç sırası hangi şıkda doğrudur?|sınıf > id > satır içi > etiket|satır içi > id > sınıf >etiket|etiket > satır içi > sınıf > id|id > satır içi > etiket > sınıf
+<style> etiketi hangi etiketin içinde yer almalıdır?|head|body|class|table
