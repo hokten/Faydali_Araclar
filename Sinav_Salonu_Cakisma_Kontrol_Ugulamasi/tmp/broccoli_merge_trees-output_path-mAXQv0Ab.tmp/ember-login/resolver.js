@@ -1,0 +1,1 @@
+/home/okten/Projeler/ember-login/app/resolver.js

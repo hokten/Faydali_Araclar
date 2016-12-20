@@ -1,0 +1,1 @@
+/home/okten/Projeler/ember-login/tmp/funnel-input_base_path-XxNlHbNL.tmp/0/fake-owner.js

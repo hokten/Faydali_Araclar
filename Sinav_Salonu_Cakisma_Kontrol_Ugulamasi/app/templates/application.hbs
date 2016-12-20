@@ -1,0 +1,25 @@
+<div class="menu">
+{{#link-to 'index' classNames='navbar-brand'}}
+    Anasayfa
+  {{/link-to}}
+&nbsp;
+{{#link-to 'account'}}
+   Sınav-Salon Çizelgesi 
+  {{/link-to}}
+&nbsp;
+
+  {{#if session.isAuthenticated}}
+   <a {{action 'invalidateSession'}}>Çıkış Yap</a>
+    {{#if currentUser.user}}
+      <p>{{currentUser.user}} olarak giriş yaptınız.</p>
+    {{/if}}
+  {{else}}
+    {{#link-to 'login'}}Giriş Yap{{/link-to}}
+&nbsp;
+  {{/if}}
+</div>
+
+<div class="main">
+  {{outlet}}
+</div>
+

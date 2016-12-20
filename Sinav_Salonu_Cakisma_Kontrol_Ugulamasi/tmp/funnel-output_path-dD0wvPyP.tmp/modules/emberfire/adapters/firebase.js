@@ -1,0 +1,1 @@
+/root/Projeler/ember-login/tmp/funnel-input_base_path-CBL1Gtwq.tmp/0/adapters/firebase.js

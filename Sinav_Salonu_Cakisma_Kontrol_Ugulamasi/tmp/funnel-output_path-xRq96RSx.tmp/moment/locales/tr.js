@@ -1,0 +1,1 @@
+/root/Projeler/ember-login/tmp/funnel-input_base_path-WK3vhtNi.tmp/locale/tr.js

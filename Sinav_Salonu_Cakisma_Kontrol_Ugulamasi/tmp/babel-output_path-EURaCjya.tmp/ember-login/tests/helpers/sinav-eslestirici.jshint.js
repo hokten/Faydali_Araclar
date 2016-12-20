@@ -1,0 +1,9 @@
+define('ember-login/tests/helpers/sinav-eslestirici.jshint', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | helpers/sinav-eslestirici.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'helpers/sinav-eslestirici.js should pass jshint.');
+  });
+});

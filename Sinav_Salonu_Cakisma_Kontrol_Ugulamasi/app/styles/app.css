@@ -1,0 +1,88 @@
+table {
+    border-collapse:collapse;
+}
+td {
+  text-align:center;
+  border:1px solid gray;
+  padding:2px
+}
+td a {
+  display:inline-block;
+  width:50px;
+  height:30px;
+  text-align:center;
+  line-height:30px
+
+}
+td span {
+  display:inline-block;
+  width:50px;
+  height:30px;
+  text-align:center;
+  line-height:30px
+}
+.cift {
+  border-top: 1px double black;
+}
+.bil {
+  background-color:red;
+  color:white;
+  font-weight:bold
+}
+.ins {
+  background-color:darkgreen;
+  color:white;
+  font-weight:bold
+}
+.elo {
+  background-color:#0B132B;
+  color:#989788;;
+  font-weight:bold
+}
+.elk {
+  background-color:#444B6E;
+  color:#3D315B;
+  font-weight:bold
+}
+.hrt {
+  background-color:#F8F991;
+  color:#708B75;
+  font-weight:bold
+}
+.mak {
+  background-color:#F39237;
+  color:#D63230;
+  font-weight:bold
+}
+.oto {
+  background-color:#767B91;
+  color:#2A324B;
+  font-weight:bold
+}
+.tks {
+  background-color:#FFDBDA;
+  color:#604D53;
+  font-weight:bold
+}
+.tek {
+    background-color:#CFB001;
+    color:#642910;
+    font-weight:bold;
+}
+
+
+.uzem {
+    background-color:#5C2626;
+    color:#FFD6B6;
+    font-weight:bold;
+}
+.hover {
+  background-color:yellow;
+}
+[class="02-01-2017"], [class="04-01-2017"], [class="06-01-2017"], [class="10-01-2017"], [class="12-01-2017"] {
+    background-color:#EEF5DB;
+}
+[class="03-01-2017"],[class="05-01-2017"],[class="09-01-2017"], [class="11-01-2017"], [class="13-01-2017"] {
+    background-color:#C7EFCF;
+}
+

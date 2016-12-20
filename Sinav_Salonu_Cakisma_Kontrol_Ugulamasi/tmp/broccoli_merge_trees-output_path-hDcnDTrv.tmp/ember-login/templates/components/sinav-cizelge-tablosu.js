@@ -1,0 +1,1 @@
+/root/Projeler/ember-login/tmp/broccoli_merge_trees-input_base_path-d7F9B5ug.tmp/1/ember-login/templates/components/sinav-cizelge-tablosu.js

@@ -1,0 +1,1 @@
+/root/Projeler/ember-login/app/helpers/sinav-eslestirici.js

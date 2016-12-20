@@ -1,0 +1,30 @@
+<table border="1">
+  <tr style="background-color:#D6D1B1;color:#FE5F55;font-weight:bold;font-size:18px">
+    <td>Gün</td>
+    <td>Saat</td>
+    {{#each halls as |kayit|}}
+      <td class="{{kayit.salon}}">{{kayit.salon}}</td>
+    {{/each}}
+  </tr>
+{{#each-in (group-by "tarih" (sort-by "tarih" exams)) as |tarih sinavlar|}}
+  <tr class="{{utctarih tarih}}">
+  {{#if (eq (utcsaat tarih) "09:00")}}
+    <td class={{utctarih tarih}} rowspan="5">{{utctarih tarih}} <br /> {{utcisim tarih}}</td>
+  {{/if}}
+    <td>{{utcsaat tarih}}</td>
+    {{#each halls as |kayit|}}
+      {{#with (find-by 'salon' kayit.salon sinavlar) as |snv|}}
+          {{#if snv.bolum}}
+            {{#if (eq snv.bolum currentUser.username)}}
+              <td class="{{snv.salon}}"><a class="{{snv.bolum}}" title="Tarih : {{utctarih tarih}} &#10; Saat :  {{utcsaat tarih}} &#10; Salon : {{snv.salon}}" href='#' {{action "kayitekle" snv.tarih snv.salon}}>{{uppercase snv.bolum}}</a></td>
+            {{else}}
+              <td class="{{snv.salon}}"><span class="{{snv.bolum}}">{{uppercase snv.bolum}}</span></td>
+            {{/if}}
+          {{else}}
+            <td class="{{snv.salon}}"><a title="Tarih : {{utctarih tarih}} &#10; Saat :  {{utcsaat tarih}} &#10; Salon : {{snv.salon}}"  href='#' {{action "kayitekle" snv.tarih snv.salon}}>EKLE</a></td>
+          {{/if}}
+      {{/with}}
+    {{/each}}
+  </tr>
+{{/each-in}}
+</table>
