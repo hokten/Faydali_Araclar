@@ -1,8 +1,9 @@
-# Ember-login
+# Ember Tabanlı, Kullanıcı Yetkil
+Bu uygulama Ember.js ile oluşturulmuştur. Kullanıcı yetkildendirmesi için OAuth2 protokolü 
+kullanılmıştır. OAuth2 sunucusu olarak [Oauth2orizeRecipes](https://github.com/FrankHassanabad/Oauth2orizeRecipes) deposunda bulunan uygulama ve Ember.js Oauth2 entegrasyonu için [Ember Simple Auth](https://github.com/simplabs/ember-simple-auth) kullanılmıştır.
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
-
+Entegrasyon için ember-simple-auth ve authorization-server kodalrında bazı değişiklikler yapılmıştır.
+Bu değişikliklerden biri clientid eklenmesi
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
